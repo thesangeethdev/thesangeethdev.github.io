@@ -1,29 +1,89 @@
-This is a Kotlin Multiplatform project targeting Web.
+# Eve's Gifts
 
-* [/shared](./shared/src) is for code that will be shared across your Compose Multiplatform applications.
-  It contains several subfolders:
-    - [commonMain](./shared/src/commonMain/kotlin) is for code that’s common for all targets.
-    - Other folders are for Kotlin code that will be compiled for only the platform indicated in the folder name.
-      For example, if you want to use Apple’s CoreCrypto for the iOS part of your Kotlin app,
-      the [iosMain](./shared/src/iosMain/kotlin) folder would be the right place for such calls.
-      Similarly, if you want to edit the Desktop (JVM) specific part, the [jvmMain](./shared/src/jvmMain/kotlin)
-      folder is the appropriate location.
+Building by - Sangeeth Amirthanathan
 
-### Running the apps
+**Sangeeth's Portfolio** is a portfolio web app implemented by using Kotlin Multiplatform Web 
 
-Use the run configurations provided by the run widget in your IDE's toolbar. You can also use these commands and
-options:
+Time spent: TBA - building in progress
 
-- Web app:
-    - Wasm target (faster, modern browsers): `./gradlew :webApp:wasmJsBrowserDevelopmentRun`
-    - JS target (slower, supports older browsers): `./gradlew :webApp:jsBrowserDevelopmentRun`
+## UIs Implementations
 
----
+UI | Home Page | Blogs |
+--- |-----------|-----|
+Images | TBA | TBA |
 
-Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html),
-[Compose Multiplatform](https://github.com/JetBrains/compose-multiplatform/#compose-multiplatform),
-[Kotlin/Wasm](https://kotl.in/wasm/)…
+## Functionalities
 
-We would appreciate your feedback on Compose/Web and Kotlin/Wasm in the public Slack
-channel [#compose-web](https://slack-chats.kotlinlang.org/c/compose-web).
-If you face any issues, please report them on [YouTrack](https://youtrack.jetbrains.com/newIssue?project=CMP).
+**Required** functionalities:
+
+TBA
+
+The following **extensions** need to be implemented:
+
+TBA
+
+
+## Video walkthrough for potrait
+
+TAB
+
+## Video walkthrough for session time out
+
+TBA
+
+## Video walkthrough for landscape
+
+TBA
+
+## Image Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<table>
+  <tr>
+    <th>Screen</th>
+    <th>App View</th>
+    <th>Sign In View</th>
+    <th>Home View</th>
+    <th>Location View</th>
+    <th>Setting View</th>
+    <th>Session Timeout</th>
+  </tr>
+  <tr>
+    <td>Images</td>
+    <td>TBA</td>
+    <td>TBA</td>
+    <td>TBA</td>
+    <td>TBA</td>
+    <td>TBA</td>
+    <td>TBA</td>
+  </tr>
+</table>
+
+
+# Screenshots Tablet
+Screen | Landscape |
+--- |-------------------|
+Images | TBA               |
+
+## Workflow Diagram
+
+![img.png](img.png)
+
+## License
+
+    Copyright 2026 Sangeeth Amirthanathan, Sangeeth's Portfolio App
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+

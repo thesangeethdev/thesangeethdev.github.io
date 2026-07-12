@@ -100,17 +100,6 @@ const js_code = {
     'kotlin.wasm.internal.itoa64_$external_fun' : (p0) => String(p0),
     'kotlin.wasm.internal.utoa64_$external_fun' : (p0) => String(p0),
     'kotlin.wasm.internal.utoa32_$external_fun' : (p0) => String(p0),
-    'kotlin.js.jsCatch' : (f) => { 
-        let result = null;
-        try { 
-            f();
-        } catch (e) {
-           result = e;
-        }
-        return result;
-         },
-    'kotlin.js.__convertKotlinClosureToJsClosure_(()->Unit)' : (f) => getCachedJsObject(f, () => wasmExports['__callFunction_(()->Unit)'](f, )),
-    'kotlin.js.jsThrow' : (e) => { throw e; },
     'kotlin.io.printlnImpl' : (message) => console.log(message),
     'kotlin.js.jsArrayGet' : (array, index) => array[index],
     'kotlin.js.jsArraySet' : (array, index, value) => { array[index] = value },
@@ -127,8 +116,6 @@ const js_code = {
     'kotlin.js.JsString_$external_class_get' : () => JsString,
     'kotlin.js.then_$external_fun' : (_this, p0) => _this.then(p0),
     'kotlin.js.__convertKotlinClosureToJsClosure_((Js?)->Js?)' : (f) => getCachedJsObject(f, (p0) => wasmExports['__callFunction_((Js?)->Js?)'](f, p0)),
-    'kotlin.js.then_$external_fun_1' : (_this, p0, p1) => _this.then(p0, p1),
-    'kotlin.js.__convertKotlinClosureToJsClosure_((Js)->Js?)' : (f) => getCachedJsObject(f, (p0) => wasmExports['__callFunction_((Js)->Js?)'](f, p0)),
     'kotlin.random.initialSeed' : () => ((Math.random() * Math.pow(2, 32)) | 0),
     'kotlin.wasm.internal.getJsClassName' : (jsKlass) => jsKlass.name,
     'kotlin.wasm.internal.instanceOf' : (ref, jsKlass) => ref instanceof jsKlass,
@@ -136,6 +123,7 @@ const js_code = {
     'kotlinx.coroutines.tryGetProcess' : () => (typeof(process) !== 'undefined' && typeof(process.nextTick) === 'function') ? process : null,
     'kotlinx.coroutines.tryGetWindow' : () => (typeof(window) !== 'undefined' && window != null && typeof(window.addEventListener) === 'function') ? window : null,
     'kotlinx.coroutines.nextTick_$external_fun' : (_this, p0) => _this.nextTick(p0),
+    'kotlinx.coroutines.__convertKotlinClosureToJsClosure_(()->Unit)' : (f) => getCachedJsObject(f, () => wasmExports['__callFunction_(()->Unit)'](f, )),
     'kotlinx.coroutines.error_$external_fun' : (_this, p0) => _this.error(p0),
     'kotlinx.coroutines.console_$external_prop_getter' : () => console,
     'kotlinx.coroutines.createScheduleMessagePoster' : (process) => () => Promise.resolve(0).then(process),
@@ -154,8 +142,6 @@ const js_code = {
     'kotlinx.coroutines.clearTimeout' : (handle) => { if (typeof clearTimeout !== 'undefined') clearTimeout(handle); },
     'kotlinx.coroutines.clearTimeout_$external_fun' : (_this, p0) => _this.clearTimeout(p0),
     'kotlinx.coroutines.setTimeout_$external_fun' : (p0, p1) => setTimeout(p0, p1),
-    'org.khronos.webgl.byteLength_$external_prop_getter' : (_this) => _this.byteLength,
-    'org.khronos.webgl.buffer_$external_prop_getter' : (_this) => _this.buffer,
     'org.w3c.dom.css.cursor_$external_prop_setter' : (_this, v) => _this.cursor = v,
     'org.w3c.dom.css.height_$external_prop_setter' : (_this, v) => _this.height = v,
     'org.w3c.dom.css.left_$external_prop_setter' : (_this, v) => _this.left = v,
@@ -203,7 +189,6 @@ const js_code = {
     'org.w3c.dom.events.WheelEvent_$external_class_get' : () => WheelEvent,
     'org.w3c.dom.ShadowRootInit' : (mode) => ({ mode: mode }),
     'org.w3c.dom.AddEventListenerOptions_js_code' : (passive, once, capture) => ({ passive: passive, once: once, capture: capture }),
-    'org.w3c.dom.location_$external_prop_getter' : (_this) => _this.location,
     'org.w3c.dom.navigator_$external_prop_getter' : (_this) => _this.navigator,
     'org.w3c.dom.devicePixelRatio_$external_prop_getter' : (_this) => _this.devicePixelRatio,
     'org.w3c.dom.requestAnimationFrame_$external_fun' : (_this, p0) => _this.requestAnimationFrame(p0),
@@ -213,7 +198,6 @@ const js_code = {
     'org.w3c.dom.addListener_$external_fun' : (_this, p0) => _this.addListener(p0),
     'org.w3c.dom.MediaQueryList_$external_class_instanceof' : (x) => x instanceof MediaQueryList,
     'org.w3c.dom.MediaQueryList_$external_class_get' : () => MediaQueryList,
-    'org.w3c.dom.protocol_$external_prop_getter' : (_this) => _this.protocol,
     'org.w3c.dom.tabIndex_$external_prop_setter' : (_this, v) => _this.tabIndex = v,
     'org.w3c.dom.innerText_$external_prop_setter' : (_this, v) => _this.innerText = v,
     'org.w3c.dom.click_$external_fun' : (_this, ) => _this.click(),
@@ -224,41 +208,29 @@ const js_code = {
     'org.w3c.dom.setData_$external_fun' : (_this, p0, p1) => _this.setData(p0, p1),
     'org.w3c.dom.userAgent_$external_prop_getter' : (_this) => _this.userAgent,
     'org.w3c.dom.language_$external_prop_getter' : (_this) => _this.language,
-    'org.w3c.dom.caches_$external_prop_getter' : (_this) => _this.caches,
-    'org.w3c.dom.fetch_$external_fun' : (_this, p0, p1, isDefault0) => _this.fetch(p0, isDefault0 ? undefined : p1, ),
-    'org.w3c.dom.documentElement_$external_prop_getter' : (_this) => _this.documentElement,
     'org.w3c.dom.readyState_$external_prop_getter' : (_this) => _this.readyState,
     'org.w3c.dom.body_$external_prop_getter' : (_this) => _this.body,
     'org.w3c.dom.activeElement_$external_prop_getter' : (_this) => _this.activeElement,
     'org.w3c.dom.createElement_$external_fun' : (_this, p0, p1, isDefault0) => _this.createElement(p0, isDefault0 ? undefined : p1, ),
     'org.w3c.dom.hasFocus_$external_fun' : (_this, ) => _this.hasFocus(),
     'org.w3c.dom.getElementById_$external_fun' : (_this, p0) => _this.getElementById(p0),
-    'org.w3c.dom.namespaceURI_$external_prop_getter' : (_this) => _this.namespaceURI,
-    'org.w3c.dom.localName_$external_prop_getter' : (_this) => _this.localName,
     'org.w3c.dom.id_$external_prop_setter' : (_this, v) => _this.id = v,
     'org.w3c.dom.shadowRoot_$external_prop_getter' : (_this) => _this.shadowRoot,
     'org.w3c.dom.clientWidth_$external_prop_getter' : (_this) => _this.clientWidth,
     'org.w3c.dom.clientHeight_$external_prop_getter' : (_this) => _this.clientHeight,
-    'org.w3c.dom.getAttribute_$external_fun' : (_this, p0) => _this.getAttribute(p0),
-    'org.w3c.dom.getAttributeNS_$external_fun' : (_this, p0, p1) => _this.getAttributeNS(p0, p1),
     'org.w3c.dom.setAttribute_$external_fun' : (_this, p0, p1) => _this.setAttribute(p0, p1),
     'org.w3c.dom.attachShadow_$external_fun' : (_this, p0) => _this.attachShadow(p0),
     'org.w3c.dom.getBoundingClientRect_$external_fun' : (_this, ) => _this.getBoundingClientRect(),
-    'org.w3c.dom.Element_$external_class_instanceof' : (x) => x instanceof Element,
     'org.w3c.dom.dataTransfer_$external_prop_getter' : (_this) => _this.dataTransfer,
     'org.w3c.dom.DragEvent_$external_class_instanceof' : (x) => x instanceof DragEvent,
     'org.w3c.dom.DragEvent_$external_class_get' : () => DragEvent,
-    'org.w3c.dom.nodeName_$external_prop_getter' : (_this) => _this.nodeName,
     'org.w3c.dom.isConnected_$external_prop_getter' : (_this) => _this.isConnected,
-    'org.w3c.dom.childNodes_$external_prop_getter' : (_this) => _this.childNodes,
     'org.w3c.dom.firstChild_$external_prop_getter' : (_this) => _this.firstChild,
     'org.w3c.dom.textContent_$external_prop_setter' : (_this, v) => _this.textContent = v,
     'org.w3c.dom.hasChildNodes_$external_fun' : (_this, ) => _this.hasChildNodes(),
-    'org.w3c.dom.lookupPrefix_$external_fun' : (_this, p0) => _this.lookupPrefix(p0),
     'org.w3c.dom.appendChild_$external_fun' : (_this, p0) => _this.appendChild(p0),
     'org.w3c.dom.removeChild_$external_fun' : (_this, p0) => _this.removeChild(p0),
     'org.w3c.dom.Companion_$external_object_getInstance' : () => ({}),
-    'org.w3c.dom.item_$external_fun' : (_this, p0) => _this.item(p0),
     'org.w3c.dom.top_$external_prop_getter' : (_this) => _this.top,
     'org.w3c.dom.left_$external_prop_getter' : (_this) => _this.left,
     'org.w3c.dom.remove_$external_fun' : (_this, ) => _this.remove(),
@@ -278,30 +250,14 @@ const js_code = {
     'org.w3c.dom.matches_$external_prop_getter_1' : (_this) => _this.matches,
     'org.w3c.dom.MediaQueryListEvent_$external_class_instanceof' : (x) => x instanceof MediaQueryListEvent,
     'org.w3c.dom.MediaQueryListEvent_$external_class_get' : () => MediaQueryListEvent,
-    'org.w3c.dom.parsing.DOMParser_$external_fun' : () => new DOMParser(),
-    'org.w3c.dom.parsing.parseFromString_$external_fun' : (_this, p0, p1) => _this.parseFromString(p0, p1),
     'org.w3c.dom.pointerevents.pointerId_$external_prop_getter' : (_this) => _this.pointerId,
     'org.w3c.dom.pointerevents.pressure_$external_prop_getter' : (_this) => _this.pressure,
     'org.w3c.dom.pointerevents.PointerEvent_$external_class_instanceof' : (x) => x instanceof PointerEvent,
     'org.w3c.dom.pointerevents.PointerEvent_$external_class_get' : () => PointerEvent,
-    'org.w3c.fetch.ok_$external_prop_getter' : (_this) => _this.ok,
-    'org.w3c.fetch.clone_$external_fun' : (_this, ) => _this.clone(),
-    'org.w3c.fetch.blob_$external_fun' : (_this, ) => _this.blob(),
     'org.w3c.performance.now_$external_fun' : (_this, ) => _this.now(),
     'org.w3c.performance.performance_$external_prop_getter' : (_this) => _this.performance,
-    'org.w3c.workers.CacheQueryOptions_js_code' : (ignoreSearch, ignoreMethod, ignoreVary, cacheName) => ({ ignoreSearch: ignoreSearch, ignoreMethod: ignoreMethod, ignoreVary: ignoreVary, cacheName: cacheName }),
-    'org.w3c.workers.match_$external_fun' : (_this, p0, p1, isDefault0) => _this.match(p0, isDefault0 ? undefined : p1, ),
-    'org.w3c.workers.put_$external_fun' : (_this, p0, p1) => _this.put(p0, p1),
-    'org.w3c.workers.open_$external_fun' : (_this, p0) => _this.open(p0),
-    'org.w3c.workers.delete_$external_fun' : (_this, p0) => _this.delete(p0),
-    'org.w3c.xhr.XMLHttpRequest_$external_fun' : () => new XMLHttpRequest(),
-    'org.w3c.xhr.status_$external_prop_getter' : (_this) => _this.status,
-    'org.w3c.xhr.open_$external_fun' : (_this, p0, p1, p2, p3, p4, isDefault0, isDefault1) => _this.open(p0, p1, p2, isDefault0 ? undefined : p3, isDefault1 ? undefined : p4, ),
-    'org.w3c.xhr.send_$external_fun' : (_this, ) => _this.send(),
-    'org.w3c.xhr.overrideMimeType_$external_fun' : (_this, p0) => _this.overrideMimeType(p0),
     'kotlinx.browser.window_$external_prop_getter' : () => window,
     'kotlinx.browser.document_$external_prop_getter' : () => document,
-    'org.w3c.dom.length_$external_prop_getter' : (_this) => _this.length,
     'androidx.compose.runtime.internal.weakMap_js_code' : () => (new WeakMap()),
     'androidx.compose.runtime.internal.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
     'androidx.compose.runtime.internal.get_$external_fun' : (_this, p0) => _this.get(p0),
@@ -340,7 +296,6 @@ const js_code = {
     'androidx.compose.ui.text.deref_$external_fun' : (_this, ) => _this.deref(),
     'androidx.compose.ui.text.intl.parseLanguageTagToIntlLocale' : (languageTag) => new Intl.Locale(languageTag),
     'androidx.compose.ui.text.intl._language_$external_prop_getter' : (_this) => _this.language,
-    'androidx.compose.ui.text.intl._region_$external_prop_getter' : (_this) => _this.region,
     'androidx.compose.ui.text.intl._baseName_$external_prop_getter' : (_this) => _this.baseName,
     'androidx.lifecycle.WeakRef_$external_fun' : (p0) => new WeakRef(p0),
     'androidx.lifecycle.deref_$external_fun' : (_this, ) => _this.deref(),
@@ -441,28 +396,7 @@ const js_code = {
             } 
         },
     'androidx.compose.ui.window.activeElement_$external_prop_getter' : (_this) => _this.activeElement,
-    'androidx.compose.ui.window.isMatchMediaSupported' : () => window.matchMedia != undefined,
-    'org.jetbrains.compose.resources.Locale_$external_fun' : (p0) => new Intl.Locale(p0),
-    'org.jetbrains.compose.resources.language_$external_prop_getter' : (_this) => _this.language,
-    'org.jetbrains.compose.resources.region_$external_prop_getter' : (_this) => _this.region,
-    'org.jetbrains.compose.resources.isInTestEnvironment' : () => window.composeResourcesTesting == true,
-    'org.jetbrains.compose.resources.requestResponseAsByteArray' : (req) =>  {
-            var text = req.responseText;
-            var int8Arr = new Int8Array(text.length);
-            for (var i = 0; i < text.length; i++) {
-                int8Arr[i] = text.charCodeAt(i) & 0xFF;
-            }
-            return int8Arr;
-        },
-    'org.jetbrains.compose.resources.jsExportBlobAsArrayBuffer' : (blob) => blob.arrayBuffer(),
-    'org.jetbrains.compose.resources.copyArrayBufferToWasmMemory' : (ab, ptr) => {
-          const data = new Uint8Array(ab);
-          new Uint8Array(wasmExports.memory.buffer).set(data, ptr);
-    },
-    'org.jetbrains.compose.resources.supportsCacheApi' : () => Boolean(window.caches),
-    'androidx.compose.material3.internal.weakMap_js_code' : () => (new WeakMap()),
-    'androidx.compose.material3.internal.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
-    'androidx.compose.material3.internal.get_$external_fun' : (_this, p0) => _this.get(p0)
+    'androidx.compose.ui.window.isMatchMediaSupported' : () => window.matchMedia != undefined
 }
 
 const StringConstantsProxy = new Proxy({}, {

@@ -1,0 +1,10 @@
+abi_version=2.4.0
+builtins_platform=JS
+compiler_version=2.4.0
+ir_signature_versions=1,2
+jsOutputName=portfolio-shared
+language_features=+AllowAnyAsAnActualTypeForExpectInterface +MultiPlatformProjects
+metadata_version=2.4.0
+serializedIrFileFingerprints=8eirlou028h1.2kyhvchv1988z 3l5iav7jcschg.2f08vc3ttywmw 3pirihp8ibgv4.1if6sxye7pxpo 28dtjvc00np63.drnjkz4ewft0 3e485b1mum1f0.1pz2c0mjij772 2b8qx15l91lac.2x6cc4kb9dd9j yq0c2q18ck2t.2yyl8m5qkvrt1 250rjem516fa5.2f5d55ktwgqxo 2o9wj3s66d7yo.2tthi88qs3qeh
+serializedKlibFingerprint=28l6z9x8j4ddg.2evluo29e4nkh
+unique_name=portfolio\:shared

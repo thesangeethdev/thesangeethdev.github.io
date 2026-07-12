@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "unspecified",
+  "private": true,
+  "workspaces": [
+    "packages/portfolio-shared",
+    "packages/portfolio-shared-test",
+    "packages/portfolio-webApp",
+    "packages/portfolio-webApp-test",
+    "packages_imported/skiko-wasm-js/0.144.6",
+    "packages_imported/skiko-js-wasm-runtime/0.144.6",
+    "packages_imported/Kotlin-DateTime-library-kotlinx-datetime-wasm-js/0.7.1"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "resolutions": {}
+}

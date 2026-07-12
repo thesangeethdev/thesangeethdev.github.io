@@ -1,0 +1,228 @@
+{
+  "version": "9",
+  "items": {
+    "38d0ff14951d4e5181f8860628999733": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/2.4.0/e226a9616307e895822dfad4bf755d242169867b/kotlin-stdlib-js-2.4.0.klib"
+    },
+    "780d986147be05fb2636666cc9efda73": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-js/1.11.1/3bc82abe185857a9be7c285eb209496f2c98d6c8/runtime-js-1.11.1.klib"
+    },
+    "ee3bc679ba12838ed2355092028e3484": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-js/1.11.2/61ac6e0374b1311cd360b8542f8c77e1bf1912d9/runtime-js-1.11.2.klib"
+    },
+    "0d8c9f85517f807a3b5392b8b599700e": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-annotation-js/1.11.2/6e849229dc8a642d33fcca77b8c11a4fe7f03554/runtime-annotation-js-1.11.2.klib"
+    },
+    "003da13253428179dfee2d100380bdc4": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-dom-api-compat/2.4.0/f27924baa5adc795bc8f53796282ddf0af6f5c4d/kotlin-dom-api-compat-2.4.0.klib"
+    },
+    "19211b9948b1b6361fcf50833b32409f": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.collection/collection-js/1.5.0/b43b0c0b846e7ae22232c30c6b93b1784c96da58/collection-js-1.5.0.klib"
+    },
+    "35b391b0be166771f2d159a773cca411": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-js/1.9.1/6d219a6975564a47194f0158198caef96aa0e9a4/annotation-js-1.9.1.klib"
+    },
+    "19155ba32c3ea0c9912a3a46a86706eb": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-js/1.11.0/20e1b63e6163ea5f6eb6524057d3c73f5e80e5ac/kotlinx-coroutines-core-js-1.11.0.klib"
+    },
+    "2dc9c25edd85baaf840c789dfccbf34b": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-js/0.32.1/32d10e41f39ffa72a4d455bd2e9a9a6e70fd90a4/atomicfu-js-0.32.1.klib"
+    },
+    "2928502cd8f859c6c32a557785328829": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-js/1.11.1/93b9c5931a242a2d8c0ce508cfea7fe0862281c0/foundation-js-1.11.1.klib"
+    },
+    "07f66981b256fa0841b341eaaacf47aa": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation-js/1.11.1/eac13ae07b32de826f0065c1bc40eecdebf8eb51/animation-js-1.11.1.klib"
+    },
+    "da1aadae501ab4045fd414af45f9e1ff": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.animation/animation-core-js/1.11.1/f95fe087110a5afb87d11bfe94ca29eb61318be/animation-core-js-1.11.1.klib"
+    },
+    "3887378993d832537f8beacfdef3bddd": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-unit-js/1.11.1/c8160b3dbb2feee1cf26d1306b74caf5bde7a12b/ui-unit-js-1.11.1.klib"
+    },
+    "08a462125095ab5bbbc7a2bfb5a9b7e2": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-geometry-js/1.11.1/71c41767ccc34b227f2da6376be8713c55f11c3e/ui-geometry-js-1.11.1.klib"
+    },
+    "c1fe88e968caa041bfdd7a9367145dad": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-util-js/1.11.1/14af42b9153d58e8f16cedb85e49d11c86304d22/ui-util-js-1.11.1.klib"
+    },
+    "913c5ae022a1f3eb6bb883683f3b6904": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.collection-internal/collection-js/1.10.0/f09ac548578ad4bc4a0366aac70e17d8141934cd/collection-js-1.10.0.klib"
+    },
+    "638903515793328cf2d4a49104e91b05": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.annotation-internal/annotation-js/1.10.0/bca113ca1e9e845a37e33a75513e1761ce20790e/annotation-js-1.10.0.klib"
+    },
+    "1b1622dc4edba1ed86d11f2f5a0b4260": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-graphics-js/1.11.1/347497cffa8bee1988a1a92e5dc33feacc89d107/ui-graphics-js-1.11.1.klib"
+    },
+    "f3fd610b8fa36e7729317e1c6b93a1e5": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.skiko/skiko-js/0.144.6/96c2f87565a768ab72ad29876d7a0e6c48f8ac83/skiko-js-0.144.6.klib",
+      "target": "skiko-js/0.144.6"
+    },
+    "6691bd4d13b2b8780c20782a79daa004": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-browser-js/0.5.0/a4fafe363554c7fb812df4eecc959a8d7c1b12eb/kotlinx-browser-js-0.5.0.klib"
+    },
+    "d0544dab6035b2254c3f3fadb17673e4": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-js/1.11.1/d0a842dbb681723768ca0a916738b50e1c746126/ui-js-1.11.1.klib"
+    },
+    "84d67bc664885af9f21c581f4d95593a": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-backhandler-js/1.11.1/ae77d7f0c6f058036821f1ed2d211d1a7ad18c3e/ui-backhandler-js-1.11.1.klib"
+    },
+    "a023928bd610787abea09d73cadf8ff6": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.navigationevent/navigationevent-js/1.0.1/935744e058eff4fcf38800f761f74b8a106e3338/navigationevent-js-1.0.1.klib"
+    },
+    "44252df45d29066fbc9c03ac32088c15": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-text-js/1.11.1/2b5403462aefd42e6419a76cb532bc99abb6a8ac/ui-text-js-1.11.1.klib"
+    },
+    "cc7e969bc1787984298c02a3f59bb39b": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.runtime/runtime-saveable-js/1.11.1/8eeb83a19cfbc89960bdd8df39a0e34944cdbaab/runtime-saveable-js-1.11.1.klib"
+    },
+    "096aef590e79eeebcd260c6058cd1534": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.savedstate/savedstate-compose-js/1.3.6/4919018ad4541adbab719a58e4c96aecfd65c9b6/savedstate-compose-js-1.3.6.klib"
+    },
+    "964e47a00367bdcc7d59188a519554ad": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.savedstate/savedstate-js/1.3.6/8b8d02c15e2bab2cda97b2cf72d805d395110b8f/savedstate-js-1.3.6.klib"
+    },
+    "7830bae45e0058fd38e0246026073198": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-common-js/2.11.0-beta01/8f09ac00705fdf6b8b0b897ca45eb62b4740e3eb/lifecycle-common-js-2.11.0-beta01.klib"
+    },
+    "ba8850a7176fb9ec41bf3f1d752564f1": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-js/2.11.0-beta01/a1b92f0827c33e08cb76f4983d171f95e8d13595/lifecycle-common-js-2.11.0-beta01.klib"
+    },
+    "1d10c18bae145329ec135f3fbcdf4f2a": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate-js/1.4.0/1e37406e76a818fdd9729894f90c010d70c092a/savedstate-js-1.4.0.klib"
+    },
+    "5ba9660c3ffb77bd50c286cc40b89beb": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-js/1.7.3/566909fa3fcb9d24bf9414499c4d19fa87d6df1/kotlinx-serialization-core-js-1.7.3.klib"
+    },
+    "eb5ebb30af9f3311faaf1b05ad3092c9": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.savedstate/savedstate-compose-js/1.4.0/14a4bed16b2584c10411ea4d901fd966286aee71/savedstate-compose-js-1.4.0.klib"
+    },
+    "b825f2182f4c3eaf70865b7c22db8133": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-saveable-js/1.11.2/2270b68697384d4ffcfaf036af91b37b812031ef/runtime-saveable-js-1.11.2.klib"
+    },
+    "1c6004bc9ab31adb781e0d89981d8dc9": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-compose-js/2.11.0-beta01/ca1a2b1076079865393fb0be2769ee61b782cc28/lifecycle-runtime-compose-js-2.11.0-beta01.klib"
+    },
+    "5f4614b209420adeeeb71f864a9c3e1a": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-js/2.11.0-beta01/39342a6db470b4aaf53da23f7ebb8bb70bd5c51d/lifecycle-runtime-js-2.11.0-beta01.klib"
+    },
+    "647228c1e2a1db61c6381bf797cb80a1": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-runtime-compose-js/2.11.0-beta01/3f4b349e1e075ca85c41c5e6266d60972dc15bf7/lifecycle-runtime-compose-js-2.11.0-beta01.klib"
+    },
+    "8b638c67a7b42677f076ee842a7f2290": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-runtime-js/2.11.0-beta01/795132faa484f0fead1fa07d8437f69afe4de0c/lifecycle-runtime-js-2.11.0-beta01.klib"
+    },
+    "cb2a202bb30a3b8a6a79df9c8fa4ff34": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-viewmodel-js/2.11.0-beta01/d21801ad8e2234c8a5cb96ce2dee086a7507ef4/lifecycle-viewmodel-js-2.11.0-beta01.klib"
+    },
+    "688d0d33064431510949b7c213bdba02": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-js/2.11.0-beta01/182b1a2c26e1790fb5cfd85132c818db73eccf4a/lifecycle-viewmodel-js-2.11.0-beta01.klib"
+    },
+    "1a727fc4a6b213ce3e585575e315671a": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-viewmodel-savedstate-js/2.11.0-beta01/fbc31925fa4709e3d40bc1facff7c8541e90e242/lifecycle-viewmodel-savedstate-js-2.11.0-beta01.klib"
+    },
+    "38a580eb58ec870643f78c07d2dd1935": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-savedstate-js/2.11.0-beta01/a262489161e58e9e8c499c90a9f69f46df4e3222/lifecycle-viewmodel-savedstate-js-2.11.0-beta01.klib"
+    },
+    "83b2b8b5c95dbb0d9b4720aaed58953a": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.compose.runtime/runtime-retain-js/1.11.2/a325cf898e7c6b7d8c35055195acb52cddc5912/runtime-retain-js-1.11.2.klib"
+    },
+    "78595800d6305a5073e0769b95225371": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.foundation/foundation-layout-js/1.11.1/897fdae975cf729df4f3ef1056ebcdda94b2b58f/foundation-layout-js-1.11.1.klib"
+    },
+    "9f50a24e68df9d4e71fad9716e4a10d5": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material3/material3-js/1.11.0-alpha07/50db5a64c25d80d8c7bd3807ee1b3f3ce138a63d/material3-js-1.11.0-alpha07.klib"
+    },
+    "e0e239fc0db6617cd578e11442230208": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.material/material-ripple-js/1.11.0-beta03/fa334a10a5fdd17a7a1e0304a95f35c541f0cc07/material-ripple-js-1.11.0-beta03.klib"
+    },
+    "410cc44881297a98c8026c02387b33c3": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.graphics/graphics-shapes-js/1.1.0/58cf2639371c54146d1a77034bbd2706c914e85d/graphics-shapes-js-1.1.0.klib"
+    },
+    "de0de2ffceaa8721b52562a3e92f9946": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-datetime-js/0.7.1/35e8f24ceaafafd34feebcc18aa728c1bfce582e/kotlinx-datetime-js-0.7.1.klib",
+      "target": "Kotlin-DateTime-library-kotlinx-datetime/0.7.1"
+    },
+    "01e7ab6834c145dc407ec0230c23dd6d": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.components/components-resources-js/1.11.1/9fc762e34f3d51d4acdbbbe58f8c4f57f73fbc8f/library-js-1.11.1.klib",
+      "target": "components-resources-js/1.11.1"
+    },
+    "db10eb4a3c23d153f9be3438a513abe7": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.compose.ui/ui-tooling-preview-js/1.11.1/266ecc61cf377edf2b14fdc7bd1fd73c517d37a5/ui-tooling-preview-js-1.11.1.klib"
+    },
+    "ec7670eea7bfc74dbdefc2594b991c86": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-viewmodel-compose-js/2.11.0-beta01/3cdac1abd8856de89fd8af7e3407dac8bde35f8/lifecycle-viewmodel-compose-js-2.11.0-beta01.klib"
+    },
+    "cdfd22aca085f09abdd8fcb63dfae468": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-compose-js/2.11.0-beta01/a6810fbd5b568f89a95913f7d128b8b5659165c/lifecycle-viewmodel-compose-js-2.11.0-beta01.klib"
+    },
+    "cbc15e2185895831c8bdd7f6673a8fb1": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-browser-js/2026.6.1/189d2f4887cb479b87bc6dc0a96bfd5109d1c25f/kotlin-browser-js-2026.6.1.klib"
+    },
+    "e92bea629d2dbe862d8f905335b433c6": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-cssom-core-js/2026.6.1/a46f90202713553d6a075ea453a44e18148918ba/kotlin-cssom-core-js-2026.6.1.klib",
+      "target": "kotlin-cssom-core/2026.6.1"
+    },
+    "7e4bcc7d02ede5606e189329576b523e": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-js-js/2026.6.1/ae050153624d1f1a282ed0da4cc23c68f30bc6af/kotlin-js-js-2026.6.1.klib"
+    },
+    "2ac85b8c2027ed661d2102d63afaa77f": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-js-plain-object-js/2026.6.1/7c05765b351f5006678139a71aefc37b6dd28026/kotlin-js-plain-object-js-2026.6.1.klib"
+    },
+    "b7fb2a54b00b5cc98a63d95dd08065c8": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/io.github.turansky.seskar/seskar-core-js/4.53.0/e7b46f1b133f3db088022fb64b08be0facb1aa7b/seskar-core-js-4.53.0.klib"
+    },
+    "da10a44fc57b311dafddab1aa331349d": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-js-plain-objects/2.3.21/23b05e31a8c2d1fadb2ddfca6acdcb086eab1c7f/kotlin-js-plain-objects-2.3.21.klib"
+    },
+    "838f748932cc4491b56b54e24567bab0": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-js-core-js/2026.6.1/20847bc0bcacc7c24f249bc9f343f4e14ad4ec55/kotlin-js-core-js-2026.6.1.klib"
+    },
+    "7e5b712c999182af1ebce1619a778c1d": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin-wrappers/kotlin-web-js/2026.6.1/cce2b2c3399575f40dd2b638750391efd91a5a8b/kotlin-web-js-2026.6.1.klib"
+    },
+    "ca8c8b5d8c5f09042183f65b5d037e46": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js/2.4.0/619bcee19f2dfe0623ac0aad919ecd2571c6bb67/kotlin-test-js-2.4.0.klib"
+    },
+    "7323f2e101d0df459c3ca907e65ee2ca": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-js/1.9.0/155bfdad6f6ebdde0a8049053675623eb3a1e36f/kotlinx-coroutines-core-js-1.9.0.klib"
+    },
+    "fe00ea0c2bc99d3e3ac835959854955c": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-js/0.28.0/cbf2c76fdb710de10596b7660f2a080ff7f51dac/atomicfu-js-0.28.0.klib"
+    },
+    "53e4d184e3f599ec39ce21b9cfb9f9dc": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlinx-atomicfu-runtime/2.0.0/5dd3b6879cd1d19249083132503a739f8558426d/kotlinx-atomicfu-runtime-2.0.0.klib"
+    },
+    "f9ec7031a3387de83dc76c35dfe1c459": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-common-js/2.9.6/1924c0ebacbe45725cbb29cdc7276d993adedfca/lifecycle-common-js-2.9.6.klib"
+    },
+    "3d561b1316ee8897450b079e05c0ab40": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common-js/2.9.4/2239ba84893dfb33a44f21a10218c50f34ed24b4/lifecycle-common-js-2.9.4.klib"
+    },
+    "580b1d77b3ab9d2253660bf1856467b7": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-compose-js/2.9.4/9b76c867fc39f1b2e05ded76dbccbde0ffe4eab/lifecycle-runtime-compose-js-2.9.4.klib"
+    },
+    "5091ea70f03831cb124c88e44d0d27ea": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-js/2.9.4/bbfbe48ae74be49891c8a4d11cf144ae504532ef/lifecycle-runtime-js-2.9.4.klib"
+    },
+    "de765c63cd4d4858747ae1402d562011": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-runtime-compose-js/2.9.6/3caa24784bc6f72790515eaffad38a0af00627cc/lifecycle-runtime-compose-js-2.9.6.klib"
+    },
+    "6f40d0cdcd19a969a1bbee4b366c935c": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-runtime-js/2.9.6/3b13e9612371881ccba349b4c002e254740217ac/lifecycle-runtime-js-2.9.6.klib"
+    },
+    "6bbc2a630a4ceb7e6a3998a55a8f2bb7": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-viewmodel-savedstate-js/2.9.6/57369a7455ea505e006edc80bfc68577e512c1e/lifecycle-viewmodel-savedstate-js-2.9.6.klib"
+    },
+    "c8ce9a41401465857bdf0c81ded20402": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/org.jetbrains.androidx.lifecycle/lifecycle-viewmodel-js/2.9.6/bc3715c02ab0bf2387822a4d5420d795395c72b3/lifecycle-viewmodel-js-2.9.6.klib"
+    },
+    "dd786514eb1d7e0d0d639257b15aef62": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-js/2.9.4/f3b9ee13055009bf31e85e65774b2fa334cf2d1c/lifecycle-viewmodel-js-2.9.4.klib"
+    },
+    "c575890fddd3fe64fe08de8e7f92b66e": {
+      "src": "/Users/sangeeth/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel-savedstate-js/2.9.4/5ba48f13d1bd8d6392ebde515c00cf1f81811ec6/lifecycle-viewmodel-savedstate-js-2.9.4.klib"
+    }
+  }
+}

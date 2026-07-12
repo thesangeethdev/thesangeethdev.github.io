@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "unspecified",
+  "private": true,
+  "workspaces": [
+    "packages/portfolio-shared",
+    "packages/portfolio-shared-test",
+    "packages/portfolio-webApp",
+    "packages/portfolio-webApp-test",
+    "packages_imported/skiko-js/0.144.6",
+    "packages_imported/Kotlin-DateTime-library-kotlinx-datetime/0.7.1",
+    "packages_imported/components-resources-js/1.11.1",
+    "packages_imported/kotlin-cssom-core/2026.6.1"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "resolutions": {}
+}

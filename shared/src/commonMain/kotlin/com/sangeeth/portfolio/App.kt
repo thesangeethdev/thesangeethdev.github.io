@@ -81,14 +81,7 @@ fun App() {
                         }
                     )
 
-                    Text(
-                        text = "New",
-                        style = MaterialTheme.typography.bodyLarge,
-                        color = MaterialTheme.colorScheme.onSurface,
-                        modifier = Modifier.clickable{
 
-                        }
-                    )
                 }
             }
         }

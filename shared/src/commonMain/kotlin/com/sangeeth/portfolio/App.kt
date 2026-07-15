@@ -37,20 +37,6 @@ fun App() {
                 .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-//            Button(onClick = { showContent = !showContent }) {
-//                Text("Click Me Sangeeth")
-//            }
-//            AnimatedVisibility(showContent) {
-//                val greeting = remember { Greeting().greet() }
-//                Column(
-//                    modifier = Modifier.fillMaxWidth(),
-//                    horizontalAlignment = Alignment.CenterHorizontally,
-//                ) {
-//                    Image(painterResource(Res.drawable.compose_multiplatform), null)
-//                    Text("Compose: $greeting")
-//                }
-//            }
-
             Row (
                 modifier = Modifier.fillMaxWidth()
                     .padding(horizontal = 16.dp, vertical = 12.dp),

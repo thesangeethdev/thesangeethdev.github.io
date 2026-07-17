@@ -1,5 +1,6 @@
 package com.sangeeth.portfolio
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -26,5 +27,39 @@ fun RetroHeader(){
             color = MaterialTheme.colorScheme.primary,
             fontWeight = FontWeight.Bold
         )
+
+        Row (
+            horizontalArrangement = Arrangement.spacedBy(24.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ){
+            Text(
+                text = "Home",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.clickable{
+
+                }
+            )
+
+            Text(
+                text = "Blog",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.clickable{
+
+                }
+            )
+
+            Text(
+                text = "Contact Me",
+                style = MaterialTheme.typography.bodyLarge,
+                color = MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.clickable{
+
+                }
+            )
+
+
+        }
     }
 }

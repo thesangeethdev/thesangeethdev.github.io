@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3050412d-73ae-4ab7-b612-b2f435fbc485" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/composeResources/drawable/color.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/build/generated/compose/resourceGenerator/kotlin/commonMainResourceAccessors/portfolio/shared/generated/resources/Drawable0.commonMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/generated/compose/resourceGenerator/kotlin/commonMainResourceAccessors/portfolio/shared/generated/resources/Drawable0.commonMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/App.kt" afterDir="false" />
-    </list>
+    <list default="true" id="3050412d-73ae-4ab7-b612-b2f435fbc485" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +93,7 @@
     "Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserDistribution].executor": "Run",
     "Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserProductionRun].executor": "Run",
     "Gradle.webApp [wasmJs] (1).executor": "Run",
+    "Gradle.webApp [wasmJs] (2).executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -126,7 +122,7 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.webApp [wasmJs] (2)">
+  <component name="RunManager" selected="Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserDistribution]">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <embedded_app_extension_list />
       <method v="2">
@@ -285,8 +281,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.webApp [wasmJs] (2)" />
         <item itemvalue="Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserDistribution]" />
+        <item itemvalue="Gradle.webApp [wasmJs] (2)" />
         <item itemvalue="Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserProductionRun]" />
         <item itemvalue="Gradle.webApp [wasmJs] (1)" />
       </list>

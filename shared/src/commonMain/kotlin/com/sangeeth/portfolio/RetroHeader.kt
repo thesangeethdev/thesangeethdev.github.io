@@ -4,6 +4,7 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -13,12 +14,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun RetroHeader(){
     Row (
         modifier = Modifier.fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 12.dp),
+            .padding(horizontal = 50.dp, vertical = 30.dp).height(80.dp),
         horizontalArrangement = Arrangement.SpaceBetween,
         verticalAlignment = Alignment.CenterVertically
     ){
@@ -26,39 +28,14 @@ fun RetroHeader(){
             text = "TheSangeethDev",
             style = MaterialTheme.typography.headlineSmall,
             color = Color(0xFF003A3A),
-            fontWeight = FontWeight.Bold
+            fontWeight = FontWeight.Bold,
+            fontSize = 30.sp
         )
 
         Row (
             horizontalArrangement = Arrangement.spacedBy(24.dp),
             verticalAlignment = Alignment.CenterVertically
         ){
-//            Text(
-//                text = "Home",
-//                style = MaterialTheme.typography.bodyLarge,
-//                color = MaterialTheme.colorScheme.onSurface,
-//                modifier = Modifier.clickable{
-//
-//                }
-//            )
-//
-//            Text(
-//                text = "Blog",
-//                style = MaterialTheme.typography.bodyLarge,
-//                color = MaterialTheme.colorScheme.onSurface,
-//                modifier = Modifier.clickable{
-//
-//                }
-//            )
-//
-//            Text(
-//                text = "Contact Me",
-//                style = MaterialTheme.typography.bodyLarge,
-//                color = MaterialTheme.colorScheme.onSurface,
-//                modifier = Modifier.clickable{
-//
-//                }
-//            )
             NavItem("Home", onClick = {})
             NavItem("Apps", onClick = {})
             NavItem("Blog", onClick = {})

@@ -7,12 +7,14 @@ import androidx.compose.foundation.hoverable
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsHoveredAsState
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
@@ -29,7 +31,7 @@ fun NavItem(
     val isHovered by interactionSource.collectIsHoveredAsState()
 
     val animatedFontSize by animateFloatAsState(
-        targetValue = if (isHovered) 20f else 18f, label = "fontSize"
+        targetValue = if (isHovered) 30f else 25f, label = "fontSize"
     )
 
     val backgroundColor = if (isHovered)
@@ -40,7 +42,8 @@ fun NavItem(
     Box(
         modifier = Modifier.hoverable(interactionSource = interactionSource)
             .clip(ParallelogramShape(skew = 16f))
-            .background(backgroundColor).padding(16.dp, 8.dp)
+            .background(backgroundColor).height(50.dp).padding(16.dp, 8.dp),
+        contentAlignment = Alignment.Center
     ) {
 
         Text(

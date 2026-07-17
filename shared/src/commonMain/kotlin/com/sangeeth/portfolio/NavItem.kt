@@ -16,6 +16,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -28,11 +29,11 @@ fun NavItem(
     val isHovered by interactionSource.collectIsHoveredAsState()
 
     val animatedFontSize by animateFloatAsState(
-        targetValue = if (isHovered) 20f else 14f, label = "fontSize"
+        targetValue = if (isHovered) 20f else 18f, label = "fontSize"
     )
 
     val backgroundColor = if (isHovered)
-        MaterialTheme.colorScheme.primary
+        Color(0xFF003A3A)
     else
         Color.Transparent
 
@@ -47,7 +48,9 @@ fun NavItem(
             style = MaterialTheme.typography.bodyLarge.copy(
                 fontSize = animatedFontSize.sp
             ),
-            color = MaterialTheme.colorScheme.onSurface,
+            color = if (isHovered) Color.White else Color.Black,
+            fontWeight = FontWeight.Bold,
+//            fontSize = 18.sp,
             modifier = Modifier.clickable { onClick() }
         )
     }

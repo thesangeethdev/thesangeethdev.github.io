@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3050412d-73ae-4ab7-b612-b2f435fbc485" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/NavItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/ParallelogramShape.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/bodies.knb" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/bodies.knb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/debugInfo.knd" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/debugInfo.knd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/fileEntries.knf" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/fileEntries.knf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/irDeclarations.knd" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/irDeclarations.knd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/signatures.knt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/signatures.knt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/strings.knt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/strings.knt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/types.knt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/types.knt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/manifest" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/NavItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/NavItem.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/RetroHeader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/RetroHeader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/NavItem.kt.0.cdq2fu0dje8b.ast.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/NavItem.kt.0.cdq2fu0dje8b.ast.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/NavItem.kt.0.cdq2fu0dje8b.metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/NavItem.kt.0.cdq2fu0dje8b.metadata.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/RetroHeader.kt.0.27oiqiuh7tow1.ast.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/RetroHeader.kt.0.27oiqiuh7tow1.ast.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/RetroHeader.kt.0.27oiqiuh7tow1.metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/RetroHeader.kt.0.27oiqiuh7tow1.metadata.bin" afterDir="false" />
     </list>
@@ -37,24 +46,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="portfolio" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="portfolio" type="f1a62948:ProjectNode" />
-                <item name="webApp" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="portfolio" type="f1a62948:ProjectNode" />
-                <item name="webApp" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="portfolio" type="f1a62948:ProjectNode" />
-                <item name="webApp" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="kotlin browser" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -103,6 +94,8 @@
     "Gradle.webApp [wasmJs] (1).executor": "Run",
     "Gradle.webApp [wasmJs] (2).executor": "Run",
     "Gradle.webApp [wasmJs] (3).executor": "Run",
+    "Gradle.webApp [wasmJs] (4).executor": "Run",
+    "Gradle.webApp [wasmJs].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -131,7 +124,7 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.webApp [wasmJs] (3)">
+  <component name="RunManager" selected="Gradle.webApp [wasmJs]">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <embedded_app_extension_list />
       <method v="2">
@@ -213,31 +206,6 @@
       <GradleCoverageDisabled>true</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="webApp [wasmJs] (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/webApp" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="wasmJsBrowserDevelopmentRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <GradleProfilingDisabled>true</GradleProfilingDisabled>
-      <GradleCoverageDisabled>true</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
     <configuration name="webApp [wasmJs] (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -264,6 +232,31 @@
       <method v="2" />
     </configuration>
     <configuration name="webApp [wasmJs] (3)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/webApp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wasmJsBrowserDevelopmentRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>true</GradleProfilingDisabled>
+      <GradleCoverageDisabled>true</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="webApp [wasmJs] (4)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/webApp" />
@@ -315,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.webApp [wasmJs] (3)" />
+        <item itemvalue="Gradle.webApp [wasmJs] (4)" />
         <item itemvalue="Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserDistribution]" />
+        <item itemvalue="Gradle.webApp [wasmJs] (3)" />
         <item itemvalue="Gradle.webApp [wasmJs] (2)" />
         <item itemvalue="Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserProductionRun]" />
-        <item itemvalue="Gradle.webApp [wasmJs] (1)" />
       </list>
     </recent_temporary>
   </component>

@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 
@@ -24,7 +25,7 @@ fun RetroHeader(){
         Text(
             text = "TheSangeethDev",
             style = MaterialTheme.typography.headlineSmall,
-            color = MaterialTheme.colorScheme.primary,
+            color = Color(0xFF003A3A),
             fontWeight = FontWeight.Bold
         )
 
@@ -59,6 +60,7 @@ fun RetroHeader(){
 //                }
 //            )
             NavItem("Home", onClick = {})
+            NavItem("Apps", onClick = {})
             NavItem("Blog", onClick = {})
             NavItem("Contact Me", onClick = {})
         }

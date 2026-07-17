@@ -194,6 +194,30 @@ const js_code = {
         return result;
          },
     'kotlin.js.jsThrow' : (e) => { throw e; },
+    'kotlinx.coroutines.tryGetProcess' : () => (typeof(process) !== 'undefined' && typeof(process.nextTick) === 'function') ? process : null,
+    'kotlinx.coroutines.tryGetWindow' : () => (typeof(window) !== 'undefined' && window != null && typeof(window.addEventListener) === 'function') ? window : null,
+    'kotlinx.coroutines.nextTick_$external_fun' : (_this, p0) => _this.nextTick(p0),
+    'kotlinx.coroutines.error_$external_fun' : (_this, p0) => _this.error(p0),
+    'kotlinx.coroutines.console_$external_prop_getter' : () => console,
+    'kotlinx.coroutines.createScheduleMessagePoster' : (process) => () => Promise.resolve(0).then(process),
+    'kotlinx.coroutines.__callJsClosure_(()->Unit)' : (f, ) => f(),
+    'kotlinx.coroutines.createRescheduleMessagePoster' : (window) => () => window.postMessage('dispatchCoroutine', '*'),
+    'kotlinx.coroutines.subscribeToWindowMessages' : (window, process) => {
+        const handler = (event) => {
+            if (event.source == window && event.data == 'dispatchCoroutine') {
+                event.stopPropagation();
+                process();
+            }
+        }
+        window.addEventListener('message', handler, true);
+    },
+    'kotlinx.coroutines.setTimeout' : (window, handler, timeout) => window.setTimeout(handler, timeout),
+    'kotlinx.coroutines.clearTimeout' : (handle) => { if (typeof clearTimeout !== 'undefined') clearTimeout(handle); },
+    'kotlinx.coroutines.W3CWindow_$external_fun' : () => new W3CWindow(),
+    'kotlinx.coroutines.clearTimeout_$external_fun' : (_this, p0) => _this.clearTimeout(p0),
+    'kotlinx.coroutines.W3CWindow_$external_class_instanceof' : (x) => x instanceof W3CWindow,
+    'kotlinx.coroutines.W3CWindow_$external_class_get' : () => W3CWindow,
+    'kotlinx.coroutines.setTimeout_$external_fun' : (p0, p1) => setTimeout(p0, p1),
     'androidx.compose.runtime.internal.WeakRef_$external_fun' : (p0) => new WeakRef(p0),
     'androidx.compose.runtime.internal.deref_$external_fun' : (_this, ) => _this.deref(),
     'androidx.compose.runtime.internal.WeakRef_$external_fun_1' : () => new WeakRef(),
@@ -255,30 +279,6 @@ const js_code = {
     'org.jetbrains.skiko.wasm.explicitSwapControl_$external_prop_getter' : (_this) => _this.explicitSwapControl,
     'org.jetbrains.skiko.wasm.renderViaOffscreenBackBuffer_$external_prop_getter' : (_this) => _this.renderViaOffscreenBackBuffer,
     'org.jetbrains.skiko.wasm.majorVersion_$external_prop_getter' : (_this) => _this.majorVersion,
-    'kotlinx.coroutines.tryGetProcess' : () => (typeof(process) !== 'undefined' && typeof(process.nextTick) === 'function') ? process : null,
-    'kotlinx.coroutines.tryGetWindow' : () => (typeof(window) !== 'undefined' && window != null && typeof(window.addEventListener) === 'function') ? window : null,
-    'kotlinx.coroutines.nextTick_$external_fun' : (_this, p0) => _this.nextTick(p0),
-    'kotlinx.coroutines.error_$external_fun' : (_this, p0) => _this.error(p0),
-    'kotlinx.coroutines.console_$external_prop_getter' : () => console,
-    'kotlinx.coroutines.createScheduleMessagePoster' : (process) => () => Promise.resolve(0).then(process),
-    'kotlinx.coroutines.__callJsClosure_(()->Unit)' : (f, ) => f(),
-    'kotlinx.coroutines.createRescheduleMessagePoster' : (window) => () => window.postMessage('dispatchCoroutine', '*'),
-    'kotlinx.coroutines.subscribeToWindowMessages' : (window, process) => {
-        const handler = (event) => {
-            if (event.source == window && event.data == 'dispatchCoroutine') {
-                event.stopPropagation();
-                process();
-            }
-        }
-        window.addEventListener('message', handler, true);
-    },
-    'kotlinx.coroutines.setTimeout' : (window, handler, timeout) => window.setTimeout(handler, timeout),
-    'kotlinx.coroutines.clearTimeout' : (handle) => { if (typeof clearTimeout !== 'undefined') clearTimeout(handle); },
-    'kotlinx.coroutines.W3CWindow_$external_fun' : () => new W3CWindow(),
-    'kotlinx.coroutines.clearTimeout_$external_fun' : (_this, p0) => _this.clearTimeout(p0),
-    'kotlinx.coroutines.W3CWindow_$external_class_instanceof' : (x) => x instanceof W3CWindow,
-    'kotlinx.coroutines.W3CWindow_$external_class_get' : () => W3CWindow,
-    'kotlinx.coroutines.setTimeout_$external_fun' : (p0, p1) => setTimeout(p0, p1),
     'androidx.compose.ui.text.FinalizationRegistry_$external_fun' : (p0) => new FinalizationRegistry(p0),
     'androidx.compose.ui.text.register_$external_fun' : (_this, p0, p1) => _this.register(p0, p1),
     'androidx.compose.ui.text.FinalizationRegistry_$external_class_instanceof' : (x) => x instanceof FinalizationRegistry,
@@ -4843,6 +4843,17 @@ const js_code = {
         container.style.setProperty("--compose-internal-web-backing-input-height", height)
      },
     'androidx.compose.ui.internal.focusExt' : (element, _preventScroll) => element.focus({ preventScroll: _preventScroll }),
+    'androidx.compose.foundation.internal.isClipboardWriteSupported' : () => Boolean(window.navigator.clipboard && (window.navigator.clipboard.write || window.navigator.clipboard.writeText)),
+    'androidx.compose.foundation.internal.isClipboardReadSupported' : () => Boolean(window.navigator.clipboard && window.navigator.clipboard.read),
+    'androidx.compose.foundation.internal.getTextFromBlob' : (blob) => blob.text(),
+    'androidx.compose.foundation.internal.doesJsArrayContainValue' : (jsArray, value) => jsArray.includes(value),
+    'androidx.compose.foundation.internal.weakMap_js_code' : () => (new WeakMap()),
+    'androidx.compose.foundation.internal.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
+    'androidx.compose.foundation.internal.get_$external_fun' : (_this, p0) => _this.get(p0),
+    'androidx.compose.foundation.text.EventListener' : (handler) => (event) => { handler(event) },
+    'androidx.compose.material3.internal.weakMap_js_code' : () => (new WeakMap()),
+    'androidx.compose.material3.internal.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
+    'androidx.compose.material3.internal.get_$external_fun' : (_this, p0) => _this.get(p0),
     'org.jetbrains.compose.resources.isInTestEnvironment' : () => window.composeResourcesTesting == true,
     'org.jetbrains.compose.resources.requestResponseAsByteArray' : (req) =>  {
             var text = req.responseText;
@@ -4866,17 +4877,6 @@ const js_code = {
     'org.jetbrains.compose.resources.Locale_$external_class_get' : () => Intl.Locale,
     'org.jetbrains.compose.resources.Intl_$external_class_instanceof' : (x) => x instanceof Intl,
     'org.jetbrains.compose.resources.Intl_$external_class_get' : () => Intl,
-    'androidx.compose.foundation.internal.isClipboardWriteSupported' : () => Boolean(window.navigator.clipboard && (window.navigator.clipboard.write || window.navigator.clipboard.writeText)),
-    'androidx.compose.foundation.internal.isClipboardReadSupported' : () => Boolean(window.navigator.clipboard && window.navigator.clipboard.read),
-    'androidx.compose.foundation.internal.getTextFromBlob' : (blob) => blob.text(),
-    'androidx.compose.foundation.internal.doesJsArrayContainValue' : (jsArray, value) => jsArray.includes(value),
-    'androidx.compose.foundation.internal.weakMap_js_code' : () => (new WeakMap()),
-    'androidx.compose.foundation.internal.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
-    'androidx.compose.foundation.internal.get_$external_fun' : (_this, p0) => _this.get(p0),
-    'androidx.compose.foundation.text.EventListener' : (handler) => (event) => { handler(event) },
-    'androidx.compose.material3.internal.weakMap_js_code' : () => (new WeakMap()),
-    'androidx.compose.material3.internal.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
-    'androidx.compose.material3.internal.get_$external_fun' : (_this, p0) => _this.get(p0),
     'androidx.lifecycle.WeakRef_$external_fun' : (p0) => new WeakRef(p0),
     'androidx.lifecycle.deref_$external_fun' : (_this, ) => _this.deref(),
     'androidx.lifecycle.WeakRef_$external_fun_1' : () => new WeakRef(),

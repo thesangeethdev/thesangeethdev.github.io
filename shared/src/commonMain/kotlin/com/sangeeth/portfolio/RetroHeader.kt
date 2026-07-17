@@ -32,34 +32,35 @@ fun RetroHeader(){
             horizontalArrangement = Arrangement.spacedBy(24.dp),
             verticalAlignment = Alignment.CenterVertically
         ){
-            Text(
-                text = "Home",
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.clickable{
-
-                }
-            )
-
-            Text(
-                text = "Blog",
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.clickable{
-
-                }
-            )
-
-            Text(
-                text = "Contact Me",
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.clickable{
-
-                }
-            )
-
-
+//            Text(
+//                text = "Home",
+//                style = MaterialTheme.typography.bodyLarge,
+//                color = MaterialTheme.colorScheme.onSurface,
+//                modifier = Modifier.clickable{
+//
+//                }
+//            )
+//
+//            Text(
+//                text = "Blog",
+//                style = MaterialTheme.typography.bodyLarge,
+//                color = MaterialTheme.colorScheme.onSurface,
+//                modifier = Modifier.clickable{
+//
+//                }
+//            )
+//
+//            Text(
+//                text = "Contact Me",
+//                style = MaterialTheme.typography.bodyLarge,
+//                color = MaterialTheme.colorScheme.onSurface,
+//                modifier = Modifier.clickable{
+//
+//                }
+//            )
+            NavItem("Home", onClick = {})
+            NavItem("Blog", onClick = {})
+            NavItem("Contact Me", onClick = {})
         }
     }
 }

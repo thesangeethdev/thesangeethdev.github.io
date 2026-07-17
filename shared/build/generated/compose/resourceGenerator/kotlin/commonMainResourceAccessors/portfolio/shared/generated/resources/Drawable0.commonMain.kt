@@ -12,6 +12,13 @@ import org.jetbrains.compose.resources.ResourceItem
 
 private const val MD: String = "composeResources/portfolio.shared.generated.resources/"
 
+@delegate:ResourceContentHash(-66_681_433)
+internal val Res.drawable.color: DrawableResource by lazy {
+      DrawableResource("drawable:color", setOf(
+        ResourceItem(setOf(), "${MD}drawable/color.xml", -1, -1),
+      ))
+    }
+
 @delegate:ResourceContentHash(470_159_096)
 internal val Res.drawable.compose_multiplatform: DrawableResource by lazy {
       DrawableResource("drawable:compose_multiplatform", setOf(
@@ -21,5 +28,6 @@ internal val Res.drawable.compose_multiplatform: DrawableResource by lazy {
 
 @InternalResourceApi
 internal fun _collectCommonMainDrawable0Resources(map: MutableMap<String, DrawableResource>) {
+  map.put("color", Res.drawable.color)
   map.put("compose_multiplatform", Res.drawable.compose_multiplatform)
 }

@@ -30,6 +30,7 @@ import portfolio.shared.generated.resources.compose_multiplatform
 @Preview
 fun App() {
     MaterialTheme {
+        var selectedSection by remember { mutableStateOf("Summary") }
         var showContent by remember { mutableStateOf(false) }
         Column(
             modifier = Modifier
@@ -39,6 +40,13 @@ fun App() {
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
             RetroHeader()
+            Row(modifier = Modifier.fillMaxWidth()) {
+                Sidebar(
+                    sections = listOf("Summary", "LinkedIn", "GitHub", "Certifications", "Google Play", "Experiences"),
+                    selected = selectedSection,
+                    onSelected = { selectedSection = it }
+                )
+            }
         }
     }
 }

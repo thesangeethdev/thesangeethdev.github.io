@@ -6,13 +6,19 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeContentPadding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.MaterialTheme
@@ -96,27 +102,66 @@ fun App() {
                         style = MaterialTheme.typography.bodyMedium.copy(
                             fontSize = 15.sp,
                             lineHeight = 22.sp,
-                            color = Color(0xFF444444)
-                        )
+                            color = Color(0xFF444444),
+
+                            ),
                     )
 
                     Row(
                         horizontalArrangement = Arrangement.spacedBy(16.dp)
-                    ){
+                    ) {
                         Button(
                             onClick = {},
                             colors = ButtonDefaults.buttonColors(
                                 contentColor = Color(0xFF0D47A1)
                             )
-                        ){
+                        ) {
                             Text("Get in Touch")
                         }
 
                         OutlinedButton(
                             onClick = {},
                             border = BorderStroke(1.dp, Color(0xFF0D47A1))
-                        ){
+                        ) {
                             Text("Portfolio", color = Color(0XFF0D47A1))
+                        }
+                    }
+                }
+
+                Column(
+                    modifier = Modifier
+                        .weight(1f)
+                        .fillMaxHeight()
+                        .padding(start = 24.dp),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Box(
+                        modifier = Modifier
+                            .size(180.dp)
+                            .background(
+                                color = Color.LightGray,
+                                shape = CircleShape,
+                            ),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text("Avatar", color = Color.White)
+                    }
+                    Spacer(modifier = Modifier.height(16.dp))
+
+                    Row(
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+                        repeat(5) {
+                            Box(
+                                modifier = Modifier
+                                    .size(40.dp)
+                                    .background(color = Color.Gray, shape = RoundedCornerShape(8.dp)),
+                                contentAlignment = Alignment.Center
+                                ){
+                                Text("Tech", color = Color.White, fontSize = 10.sp)
+
+                            }
                         }
                     }
                 }

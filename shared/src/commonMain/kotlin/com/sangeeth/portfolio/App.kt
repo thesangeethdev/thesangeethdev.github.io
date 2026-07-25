@@ -66,7 +66,7 @@ fun App() {
                         text = "Sangeeth",
                         style = MaterialTheme.typography.displayLarge.copy(
                             fontWeight = FontWeight.Bold,
-                            fontSize = 48.sp
+                            fontSize = 70.sp
                         ),
                         color = Color.Black
                     )
@@ -74,7 +74,7 @@ fun App() {
                         text = "Amirthanathan",
                         style = MaterialTheme.typography.displayLarge.copy(
                             fontWeight = FontWeight.SemiBold,
-                            fontSize = 36.sp
+                            fontSize = 50.sp
                         ),
                         color = Color.DarkGray,
                         modifier = Modifier.padding(bottom = 8.dp)
@@ -82,7 +82,7 @@ fun App() {
                     Text(
                         text = "Moble Application Developer",
                         style = MaterialTheme.typography.titleLarge.copy(
-                            fontSize = 22.sp
+                            fontSize = 35.sp
                         ),
                         color = Color(0xFF1A237E),
                         modifier = Modifier.padding(bottom = 12.dp)
@@ -91,7 +91,7 @@ fun App() {
                     Text(
                         text = "MSc AI and Robotics (Reading) . BEng Software Engineering - Second Upper",
                         style = MaterialTheme.typography.bodyLarge.copy(
-                            fontSize = 16.sp,
+                            fontSize = 25.sp,
                             color = Color(0xFF333333)
                         ),
                         modifier = Modifier.padding(bottom = 16.dp)
@@ -100,7 +100,7 @@ fun App() {
                     Text(
                         text = "Mobile Application Developer with 3+ years of experience building and delivering production-ready Android applications for fintech and GIS (web and mobile) solutions, serving environmental companies across the US and Sri Lanka.",
                         style = MaterialTheme.typography.bodyMedium.copy(
-                            fontSize = 15.sp,
+                            fontSize = 20.sp,
                             lineHeight = 22.sp,
                             color = Color(0xFF444444),
 
@@ -138,7 +138,7 @@ fun App() {
                 ) {
                     Box(
                         modifier = Modifier
-                            .size(180.dp)
+                            .size(250.dp)
                             .background(
                                 color = Color.LightGray,
                                 shape = CircleShape,
@@ -155,7 +155,7 @@ fun App() {
                         repeat(5) {
                             Box(
                                 modifier = Modifier
-                                    .size(40.dp)
+                                    .size(100.dp)
                                     .background(color = Color.Gray, shape = RoundedCornerShape(8.dp)),
                                 contentAlignment = Alignment.Center
                                 ){

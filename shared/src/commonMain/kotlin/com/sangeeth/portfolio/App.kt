@@ -92,7 +92,7 @@ fun App() {
                     Text(
                         text = "MSc AI and Robotics (Reading) . BEng Software Engineering - Second Upper",
                         style = MaterialTheme.typography.bodyLarge.copy(
-                            fontSize = 25.sp,
+                            fontSize = 13.sp,
                             color = Color(0xFF014E4E),
                             fontStyle = FontStyle.Italic
                         ),

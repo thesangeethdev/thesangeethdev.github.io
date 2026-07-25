@@ -5,12 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3050412d-73ae-4ab7-b612-b2f435fbc485" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/MainContent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/Sidebar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/SidebarCard.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.1.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.1.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.1.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.1.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.1.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.1.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.1.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.1.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.1.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.1.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shared_js.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/shared_js.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/shared_wasm_js.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/shared_wasm_js.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webApp_js.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/webApp_js.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webApp_wasm_js.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/webApp_wasm_js.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/wasm/packages/portfolio-webApp/kotlin/portfolio-webApp.import-object.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/build/wasm/packages/portfolio-webApp/kotlin/portfolio-webApp.import-object.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/wasm/packages/portfolio-webApp/kotlin/portfolio-webApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/build/wasm/packages/portfolio-webApp/kotlin/portfolio-webApp.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/wasm/packages/portfolio-webApp/kotlin/portfolio-webApp.wasm.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/wasm/packages/portfolio-webApp/kotlin/portfolio-webApp.wasm.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/wasm/packages/portfolio-webApp/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/wasm/packages/portfolio-webApp/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/bodies.knb" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/bodies.knb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/debugInfo.knd" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/debugInfo.knd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/fileEntries.knf" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/fileEntries.knf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/irDeclarations.knd" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/irDeclarations.knd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/signatures.knt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/signatures.knt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/strings.knt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/strings.knt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/types.knt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/ir/types.knt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/manifest" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/classes/kotlin/wasmJs/main/default/manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/js/ir-translation-result.tab.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/caches-js/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileKotlinWasmJs/local-state/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/Sidebar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/commonMain/kotlin/com/sangeeth/portfolio/Sidebar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/portfolio-webApp.import-object.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/portfolio-webApp.import-object.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/portfolio-webApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/portfolio-webApp.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/portfolio-webApp.wasm.map" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/compileSync/wasmJs/main/developmentExecutable/kotlin/portfolio-webApp.wasm.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/foundation-layout-wasm-js-1.11.1.klib.1100g9y1tv2u6/Padding.kt.0.xz9pstba1fj4.ast.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/foundation-layout-wasm-js-1.11.1.klib.1100g9y1tv2u6/Padding.kt.0.xz9pstba1fj4.ast.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/foundation-layout-wasm-js-1.11.1.klib.1100g9y1tv2u6/Padding.kt.0.xz9pstba1fj4.metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/foundation-layout-wasm-js-1.11.1.klib.1100g9y1tv2u6/Padding.kt.0.xz9pstba1fj4.metadata.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/App.kt.0.2kgtp4o49azzu.ast.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/App.kt.0.2kgtp4o49azzu.ast.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/App.kt.0.2kgtp4o49azzu.metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/App.kt.0.2kgtp4o49azzu.metadata.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/Sidebar.kt.0.1i2o0r8rslswn.ast.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/Sidebar.kt.0.1i2o0r8rslswn.ast.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/ic.header.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.16pcyn5p1fj2p/ic.header.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.3h1ehfpn75e3h/main.kt.0.ep497jtchlt4.metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/main.3h1ehfpn75e3h/main.kt.0.ep497jtchlt4.metadata.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/ui-unit-wasm-js-1.11.1.klib.ndq40260qi7h/Dp.kt.0.9ckyu2xdgcmb.metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/ui-unit-wasm-js-1.11.1.klib.ndq40260qi7h/Dp.kt.0.9ckyu2xdgcmb.metadata.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/ui-wasm-js-1.11.1.klib.3bdp5lhwd9zau/InspectableValue.kt.0.15gqei620o24q.metadata.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/klib/cache/wasm-js/developmentExecutable/version.2wc5rus7j0qmm/ui-wasm-js-1.11.1.klib.3bdp5lhwd9zau/InspectableValue.kt.0.15gqei620o24q.metadata.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/kotlin/compileKotlinWasmJs/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/kotlin/compileKotlinWasmJs/cacheable/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webApp/build/kotlin/compileKotlinWasmJs/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/webApp/build/kotlin/compileKotlinWasmJs/local-state/build-history.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +83,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="portfolio" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="portfolio" type="f1a62948:ProjectNode" />
-                <item name="webApp" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="portfolio" type="f1a62948:ProjectNode" />
-                <item name="webApp" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="portfolio" type="f1a62948:ProjectNode" />
-                <item name="webApp" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="kotlin browser" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -133,7 +161,7 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.webApp [wasmJs] (2)">
+  <component name="RunManager" selected="Gradle.webApp [wasmJs] (1)">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" IS_LOCATION_SIMULATION_SUPPORTED="false" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" DEVELOPMENT_TEAM="" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <embedded_app_extension_list />
       <method v="2">
@@ -215,31 +243,6 @@
       <GradleCoverageDisabled>true</GradleCoverageDisabled>
       <method v="2" />
     </configuration>
-    <configuration name="webApp [wasmJs] (2)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/webApp" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="wasmJsBrowserDevelopmentRun" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <GradleProfilingDisabled>true</GradleProfilingDisabled>
-      <GradleCoverageDisabled>true</GradleCoverageDisabled>
-      <method v="2" />
-    </configuration>
     <configuration name="webApp [wasmJs]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -267,9 +270,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.webApp [wasmJs] (2)" />
-        <item itemvalue="Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserDistribution]" />
         <item itemvalue="Gradle.webApp [wasmJs] (1)" />
+        <item itemvalue="Gradle.thesangeethdev.github.io [:webApp:wasmJsBrowserDistribution]" />
       </list>
     </recent_temporary>
   </component>

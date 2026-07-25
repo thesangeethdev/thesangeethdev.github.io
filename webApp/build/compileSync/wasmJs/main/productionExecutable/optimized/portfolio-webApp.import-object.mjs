@@ -396,7 +396,10 @@ const js_code = {
             } 
         },
     'androidx.compose.ui.window.activeElement_$external_prop_getter' : (_this) => _this.activeElement,
-    'androidx.compose.ui.window.isMatchMediaSupported' : () => window.matchMedia != undefined
+    'androidx.compose.ui.window.isMatchMediaSupported' : () => window.matchMedia != undefined,
+    'androidx.compose.material3.internal.weakMap_js_code' : () => (new WeakMap()),
+    'androidx.compose.material3.internal.set_$external_fun' : (_this, p0, p1) => _this.set(p0, p1),
+    'androidx.compose.material3.internal.get_$external_fun' : (_this, p0) => _this.get(p0)
 }
 
 const StringConstantsProxy = new Proxy({}, {

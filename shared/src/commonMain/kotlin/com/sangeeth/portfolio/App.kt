@@ -28,6 +28,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -68,7 +69,7 @@ fun App() {
                             fontWeight = FontWeight.Bold,
                             fontSize = 70.sp
                         ),
-                        color = Color.Black
+                        color = Color(0xFF003a3a)
                     )
                     Text(
                         text = "Amirthanathan",
@@ -76,7 +77,7 @@ fun App() {
                             fontWeight = FontWeight.SemiBold,
                             fontSize = 50.sp
                         ),
-                        color = Color.DarkGray,
+                        color = Color(0xFF014E4E),
                         modifier = Modifier.padding(bottom = 8.dp)
                     )
                     Text(
@@ -84,7 +85,7 @@ fun App() {
                         style = MaterialTheme.typography.titleLarge.copy(
                             fontSize = 35.sp
                         ),
-                        color = Color(0xFF1A237E),
+                        color = Color(0xFF014E4E),
                         modifier = Modifier.padding(bottom = 12.dp)
                     )
 
@@ -92,7 +93,8 @@ fun App() {
                         text = "MSc AI and Robotics (Reading) . BEng Software Engineering - Second Upper",
                         style = MaterialTheme.typography.bodyLarge.copy(
                             fontSize = 25.sp,
-                            color = Color(0xFF333333)
+                            color = Color(0xFF014E4E),
+                            fontStyle = FontStyle.Italic
                         ),
                         modifier = Modifier.padding(bottom = 16.dp)
                     )
@@ -102,7 +104,7 @@ fun App() {
                         style = MaterialTheme.typography.bodyMedium.copy(
                             fontSize = 20.sp,
                             lineHeight = 22.sp,
-                            color = Color(0xFF444444),
+                            color = Color(0xFF014E4E),
 
                             ),
                     )

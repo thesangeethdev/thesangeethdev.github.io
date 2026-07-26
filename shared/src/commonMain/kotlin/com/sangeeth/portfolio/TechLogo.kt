@@ -53,7 +53,7 @@ fun TechLogo(
         Image(
             painter = logo,
             contentDescription = contentDescription,
-            modifier = Modifier.fillMaxSize(0.6f)
+            modifier = Modifier.fillMaxSize(2f)
         )
     }
 }

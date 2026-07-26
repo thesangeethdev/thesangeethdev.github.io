@@ -37,8 +37,9 @@ fun RetroHeader(){
             verticalAlignment = Alignment.CenterVertically
         ){
             NavItem("Home", onClick = {})
-            NavItem("Apps", onClick = {})
-            NavItem("Blog", onClick = {})
+            NavItem("Portfolio", onClick = {})
+            NavItem("Experience", onClick = {})
+            NavItem("Education", onClick = {})
             NavItem("Contact Me", onClick = {})
         }
     }

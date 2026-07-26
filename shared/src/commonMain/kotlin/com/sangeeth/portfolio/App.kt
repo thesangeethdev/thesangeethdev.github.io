@@ -35,9 +35,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.jetbrains.compose.resources.painterResource
+import portfolio.shared.generated.resources.Android_robot
+import portfolio.shared.generated.resources.Kotlin
 
 import portfolio.shared.generated.resources.Res
 import portfolio.shared.generated.resources.compose_multiplatform
+import portfolio.shared.generated.resources.kotlin_Ktor
 
 @Composable
 @Preview
@@ -163,9 +166,9 @@ fun App() {
                         horizontalArrangement = Arrangement.spacedBy(4.dp)
                     ) {
                         val logos = listOf(
-                            painterResource(resource = Res.drawable.compose_multiplatform),
-                            painterResource(resource = Res.drawable.compose_multiplatform),
-                            painterResource(resource = Res.drawable.compose_multiplatform),
+                            painterResource(resource = Res.drawable.Kotlin),
+                            painterResource(resource = Res.drawable.Android_robot),
+                            painterResource(resource = Res.drawable.kotlin_Ktor),
 //                            painterResource(resource = Res.drawable.compose_multiplatform),
 //                            painterResource(resource = Res.drawable.compose_multiplatform)
                         )

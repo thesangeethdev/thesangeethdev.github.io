@@ -33,6 +33,13 @@ internal val Res.drawable.compose_multiplatform: DrawableResource by lazy {
       ))
     }
 
+@delegate:ResourceContentHash(-548_339_130)
+internal val Res.drawable.kmp: DrawableResource by lazy {
+      DrawableResource("drawable:kmp", setOf(
+        ResourceItem(setOf(), "${MD}drawable/kmp.png", -1, -1),
+      ))
+    }
+
 @delegate:ResourceContentHash(1_750_170_468)
 internal val Res.drawable.kotlin_Ktor: DrawableResource by lazy {
       DrawableResource("drawable:kotlin_Ktor", setOf(
@@ -45,5 +52,6 @@ internal fun _collectCommonMainDrawable0Resources(map: MutableMap<String, Drawab
   map.put("Android_robot", Res.drawable.Android_robot)
   map.put("Kotlin", Res.drawable.Kotlin)
   map.put("compose_multiplatform", Res.drawable.compose_multiplatform)
+  map.put("kmp", Res.drawable.kmp)
   map.put("kotlin_Ktor", Res.drawable.kotlin_Ktor)
 }

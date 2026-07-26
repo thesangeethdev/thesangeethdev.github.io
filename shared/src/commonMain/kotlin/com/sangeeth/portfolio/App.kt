@@ -40,6 +40,7 @@ import portfolio.shared.generated.resources.Kotlin
 
 import portfolio.shared.generated.resources.Res
 import portfolio.shared.generated.resources.compose_multiplatform
+import portfolio.shared.generated.resources.kmp
 import portfolio.shared.generated.resources.kotlin_Ktor
 
 @Composable
@@ -169,7 +170,7 @@ fun App() {
                             painterResource(resource = Res.drawable.Kotlin),
                             painterResource(resource = Res.drawable.Android_robot),
                             painterResource(resource = Res.drawable.kotlin_Ktor),
-//                            painterResource(resource = Res.drawable.compose_multiplatform),
+                            painterResource(resource = Res.drawable.kmp),
 //                            painterResource(resource = Res.drawable.compose_multiplatform)
                         )
 //                        repeat(5) {

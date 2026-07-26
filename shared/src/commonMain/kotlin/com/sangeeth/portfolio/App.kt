@@ -109,23 +109,30 @@ fun App() {
                             ),
                     )
 
+                    Spacer(modifier = Modifier.height(8.dp))
                     Row(
                         horizontalArrangement = Arrangement.spacedBy(16.dp)
                     ) {
                         Button(
+                            shape = RoundedCornerShape(8.dp),
                             onClick = {},
                             colors = ButtonDefaults.buttonColors(
-                                contentColor = Color(0xFF0D47A1)
+                                contentColor = Color.White,
+                                containerColor = Color(0xFF003a3a)
                             )
                         ) {
                             Text("Get in Touch")
                         }
 
                         OutlinedButton(
+                            shape = RoundedCornerShape(8.dp),
                             onClick = {},
-                            border = BorderStroke(1.dp, Color(0xFF0D47A1))
+                            border = BorderStroke(3.dp, Color(0xFF003a3a)),
+                            colors = ButtonDefaults.outlinedButtonColors(
+                                contentColor = Color(0xFF003a3a)
+                            )
                         ) {
-                            Text("Portfolio", color = Color(0XFF0D47A1))
+                            Text("Portfolio")
                         }
                     }
                 }

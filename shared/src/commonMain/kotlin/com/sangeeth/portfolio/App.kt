@@ -28,6 +28,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
@@ -159,18 +160,32 @@ fun App() {
                     Spacer(modifier = Modifier.height(16.dp))
 
                     Row(
-                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                        horizontalArrangement = Arrangement.spacedBy(4.dp)
                     ) {
-                        repeat(5) {
-                            Box(
-                                modifier = Modifier
-                                    .size(100.dp)
-                                    .background(color = Color.Gray, shape = RoundedCornerShape(8.dp)),
-                                contentAlignment = Alignment.Center
-                                ){
-                                Text("Tech", color = Color.White, fontSize = 10.sp)
-
-                            }
+                        val logos = listOf(
+                            painterResource(resource = Res.drawable.compose_multiplatform),
+                            painterResource(resource = Res.drawable.compose_multiplatform),
+                            painterResource(resource = Res.drawable.compose_multiplatform),
+//                            painterResource(resource = Res.drawable.compose_multiplatform),
+//                            painterResource(resource = Res.drawable.compose_multiplatform)
+                        )
+//                        repeat(5) {
+//                            Box(
+//                                modifier = Modifier
+//                                    .size(100.dp)
+//                                    .background(color = Color.Transparent, shape = RoundedCornerShape(8.dp)),
+//                                contentAlignment = Alignment.Center
+//                                ){
+//                                Text("Tech", color = Color.White, fontSize = 10.sp)
+//
+//                            }
+//                        }
+                        logos.forEachIndexed { index, painter ->
+                            TechLogo(
+                                logo = painter,
+                                animationDelay = index * 100,
+                                modifier = Modifier.weight(1f)
+                            )
                         }
                     }
                 }
